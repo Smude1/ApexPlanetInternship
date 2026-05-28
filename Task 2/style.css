@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Navbar */
+
+.navbar {
+    background: #0077ff;
+    color: white;
+    padding: 15px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Layout */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+    width: 90%;
+    margin: 40px auto;
+}
+
+/* Form Section */
+
+.form-section,
+.todo-section {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #0077ff;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background: #0077ff;
+    color: white;
+
+    border: none;
+    padding: 12px 20px;
+
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056cc;
+}
+
+/* To Do List */
+
+.todo-input {
+    display: flex;
+    gap: 10px;
+}
+
+#taskList {
+    margin-top: 20px;
+    list-style: none;
+}
+
+#taskList li {
+    background: #e9ecef;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background: red;
+    padding: 6px 10px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .todo-input {
+        flex-direction: column;
+    }
+}
