@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <section class="hero">
+            <p class="eyebrow">Local Storage Notes</p>
+            <h1>My Notes 📝</h1>
+            <p class="subtitle">Capture quick thoughts, keep them saved, and edit them anytime.</p>
+        </section>
+
+        <section class="composer">
+            <textarea
+                id="noteInput"
+                placeholder="Write a note..."
+                rows="4"
+            ></textarea>
+
+            <div class="actions">
+                <button onclick="addNote()" class="primary-btn">
+                    Add Note
+                </button>
+                <button onclick="clearAllNotes()" class="secondary-btn">
+                    Clear All
+                </button>
+            </div>
+        </section>
+
+        <div class="meta">
+            <span id="notesCount">0 notes saved</span>
+        </div>
+
+        <ul id="notesList" class="notes-list"></ul>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
