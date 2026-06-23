@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="page-shell">
+        <header class="hero">
+            <p class="eyebrow">Curated collection</p>
+            <h1>Product Listing Page 🛍️</h1>
+            <p class="subtitle">Browse a simple catalog with quick category filters and price sorting.</p>
+        </header>
+
+        <section class="controls" aria-label="Product filters">
+
+            <select id="categoryFilter" onchange="filterProducts()" aria-label="Filter products by category">
+                <option value="all">All Categories</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Books">Books</option>
+                <option value="Clothing">Clothing</option>
+            </select>
+
+            <select id="sortPrice" onchange="sortProducts()" aria-label="Sort products by price">
+                <option value="default">Sort By Price</option>
+                <option value="low">Low to High</option>
+                <option value="high">High to Low</option>
+            </select>
+
+        </section>
+
+        <div id="productContainer" class="product-grid"></div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
