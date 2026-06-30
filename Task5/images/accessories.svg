@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Accessories product illustration</title>
+  <desc id="desc">A stylish watch and accessory themed illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="36" fill="url(#bg)"/>
+  <circle cx="480" cy="300" r="80" fill="#fff" opacity="0.08"/>
+  <circle cx="120" cy="90" r="58" fill="#fff" opacity="0.12"/>
+  <rect x="220" y="88" width="160" height="224" rx="80" fill="#ede9fe" opacity="0.96"/>
+  <rect x="245" y="120" width="110" height="160" rx="50" fill="#7c3aed"/>
+  <circle cx="300" cy="200" r="48" fill="#c4b5fd"/>
+  <circle cx="300" cy="200" r="12" fill="#312e81"/>
+  <path d="M300 200l0-26" stroke="#312e81" stroke-width="8" stroke-linecap="round"/>
+  <path d="M300 200l22 16" stroke="#312e81" stroke-width="8" stroke-linecap="round"/>
+  <rect x="279" y="48" width="42" height="42" rx="12" fill="#ede9fe"/>
+  <rect x="279" y="310" width="42" height="42" rx="12" fill="#ede9fe"/>
+</svg>
