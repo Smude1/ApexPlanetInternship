@@ -10,40 +10,34 @@ This repository contains the projects completed during my Web Development Intern
 - Flexbox
 - CSS Grid
 - Responsive Design
+- Local Storage
 - Fetch API
 
 ---
 
 # Task 1 - Basics of Web Development
 
-## Objective
-Learn and apply foundational HTML, CSS, and JavaScript concepts.
-
 ## Features
 - Personal Portfolio Webpage
-- Headings, Paragraphs, Images, and Links
+- HTML Elements (Headings, Paragraphs, Images, Links)
 - CSS Styling
-- Responsive Layout
 - JavaScript Alert Button
 
 ## Skills Learned
 - HTML Structure
-- CSS Styling
-- Basic JavaScript
+- CSS Fundamentals
+- JavaScript Basics
 - Event Handling
 
 ---
 
 # Task 2 - Intermediate HTML, CSS, and JavaScript
 
-## Objective
-Enhance HTML and CSS skills and learn DOM Manipulation.
-
 ## Features
 - Responsive Navigation Bar
 - Contact Form
 - Form Validation using JavaScript
-- To-Do List Application
+- Dynamic To-Do List
 - Responsive Layout using Flexbox and CSS Grid
 
 ## Skills Learned
@@ -51,68 +45,118 @@ Enhance HTML and CSS skills and learn DOM Manipulation.
 - Form Validation
 - Flexbox
 - CSS Grid
-- Media Queries
+- Responsive Web Design
 
 ---
 
 # Task 3 - Advanced Styling and JavaScript
 
-## Objective
-Gain advanced skills in CSS and JavaScript for building interactive and responsive websites.
-
 ## Features
 - Weather Application
 - API Integration using Fetch API
 - Dynamic Weather Data Display
-- Responsive Design using Media Queries
-- Modern User Interface
+- Responsive User Interface
 
 ## Skills Learned
-- API Integration
+- Fetch API
 - Async/Await
 - JSON Handling
-- Fetch API
-- Responsive Web Design
+- API Integration
+- Responsive Design
 
 ---
 
-## Project Structure
+# Task 4 - Full Project Implementation
 
-```
+## Project 1: Personal Portfolio Website
+
+### Features
+- Responsive Navigation Bar
+- Hero Section
+- About Me Section
+- Skills Section
+- Projects Showcase
+- Contact Form
+- Responsive Design
+
+### Skills Learned
+- Multi-Section Website Development
+- Responsive Layout Design
+- Portfolio Development
+- UI Structuring
+
+---
+
+## Project 2: Notes App with Local Storage
+
+### Features
+- Add Notes
+- Delete Notes
+- Store Notes using Local Storage
+- Persistent Data After Refresh
+
+### Skills Learned
+- Local Storage
+- CRUD Operations
+- Dynamic DOM Updates
+
+---
+
+## Project 3: Product Listing Page
+
+### Features
+- Product Cards
+- Filter Products by Category
+- Sort Products by Price
+- Responsive Layout
+
+### Skills Learned
+- Array Filtering
+- Array Sorting
+- Dynamic Rendering
+- DOM Manipulation
+
+---
+
+# Project Structure
+
+```text
 ApexPlanet-Web-Development/
 │
 ├── Task1/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
 │
 ├── Task2/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
 │
 ├── Task3/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
+│
+├── Task4/
+│   ├── PortfolioWebsite/
+│   ├── NotesApp/
+│   └── ProductListing/
 │
 └── README.md
 ```
 
 ---
 
-## Internship Progress
+# Internship Progress
 
 - ✅ Task 1 Completed
 - ✅ Task 2 Completed
 - ✅ Task 3 Completed
-- ⏳ Task 4 In Progress
+- ✅ Task 4 Completed
 - ⏳ Task 5 Pending
 
 ---
 
-## Author
+# Author
 
 **Suraj Mude**
 
+Computer Engineering Student  
 Web Development Intern at ApexPlanet Software Pvt. Ltd.
+
+## Connect With Me
+
+- GitHub: https://github.com/Smude1
+- LinkedIn: https://www.linkedin.com/in/suraj-mude-319565332
